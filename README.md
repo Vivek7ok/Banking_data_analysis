@@ -229,30 +229,6 @@ The dashboard's own Risk Analysis page carries a set of management-facing recomm
 - The original branch-ranking query (`10_Advanced_SQL.sql`) joined accounts, loans, and transactions directly, which caused row fan-out — a single account row got duplicated once per matching loan and once per matching transaction, inflating balance and count totals. Fixed by aggregating each table independently in subqueries, then combining with `LEFT JOIN`s on `branch_id` (with `COALESCE` so branches with no loans/transactions still show up as 0) before ranking with `RANK()`
 - A few earlier query drafts had alias typos (`avg_interset`, `late_paymetns`) and one used `SUM()` where `AVG()` was intended — caught and corrected during review
 
-### How to Run This Project
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/Vivek7ok/Banking_data_analysis.git
-   ```
-2. Pull the LFS-tracked data:
-   ```
-   cd Banking_data_analysis
-   git lfs pull
-   ```
-3. Create a PostgreSQL database and run the schema (update the `COPY` file paths in `Sql/Schema.sql` to point at your local `Data/` folder first):
-   ```
-   psql -d your_database -f Sql/Schema.sql
-   ```
-4. Run the SQL analysis scripts in `Sql/` in numeric order (01 → 10) for business-question results.
-5. Open the dashboard:
-   ```
-   Power bi/Dashbored.pbix
-   ```
-6. Optional — open the supplementary workbook:
-   ```
-   Excel/Bank.xlsx
-   ```
 
 ### Author & Contact
 
