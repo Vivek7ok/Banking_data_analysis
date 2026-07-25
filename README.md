@@ -12,6 +12,7 @@ Analyzing deposits, loans, cards, and customer support for a synthetic retail ba
 - [Database Design](#database-design)
 - [SQL Analysis](#sql-analysis)
 - [Key Findings](#key-findings)
+- [Sechma](#sechma)
 - [Dashboard](#dashboard)
 - [Business Recommendations](#business-recommendations)
 - [Data Notes & Challenges](#data-notes--challenges)
