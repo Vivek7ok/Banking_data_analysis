@@ -175,6 +175,11 @@ Data is bulk-loaded with PostgreSQL's `COPY` command rather than row-by-row inse
 - Ahmedabad Branch 7 is the single most-flagged branch for defaults (43 cases), just ahead of Bhopal Branch 8, Kochi Branch 2, Pune Branch 1 (41 each), and Bhopal Branch 6 (40)
 - Defaults skew toward Education and Gold loans (279 and 278 cases) and taper off toward Personal loans (251) — risk isn't spread evenly across loan types either
 
+### Sechma
+
+All the files, how they are connected to each other, and which fields are the primary keys and foreign keys are defined in the following image.
+![Sechma](Power%20bi/1.png)
+
 ### Dashboard
 
 The Power BI dashboard (`Power bi/Dashbored.pbix`), branded **PrimeBank**, has 8 pages with consistent left-hand navigation and Year/Month filters:
