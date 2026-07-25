@@ -69,8 +69,13 @@ Banking_data_analysis/
 │   ├── card_transactions.csv
 │   ├── transactions.csv
 │   ├── support_tickets.csv
-│   └── README.md
+│  └── README.md
 │
+├── Schema/
+│   ├── Database_Schema.drawio      # Editable database schema
+│   ├── Database_Schema.drawio.png  # Schema preview image
+│   └── Database_Schema.drawio.svg  # High-quality vector diagram
+│ 
 ├── Sql/                         # Schema + 10 business-question scripts
 │   ├── Schema.sql
 │   ├── 01_KPI_Analysis.sql
@@ -84,6 +89,7 @@ Banking_data_analysis/
 │   ├── 09_Risk_Analysis.sql
 │   └── 10_Advanced_SQL.sql
 │
+
 ├── Power bi/                    # Dashboard file + page exports
 │   ├── Dashbored.pbix
 │   └── 1.png ... 8.png
@@ -178,7 +184,8 @@ Data is bulk-loaded with PostgreSQL's `COPY` command rather than row-by-row inse
 ### Sechma
 
 All the files, how they are connected to each other, and which fields are the primary keys and foreign keys are defined in the following image.
-![Sechma](Power%20bi/1.png)
+
+![Sechma](Sechma/Database_Schema.drawio.png)
 
 ### Dashboard
 
