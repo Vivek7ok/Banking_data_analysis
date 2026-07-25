@@ -222,7 +222,7 @@ A supplementary Excel workbook (`Excel/Bank.xlsx`) mirrors a slice of this analy
 ![Excel Dashboard](Excel/Dashbored%20Image.png)
 
 ### Project Workflow
-![Project Workflow](Work Flow.jpg)
+![Project Workflow](WorkFlow.jpg)
 
 ### Business Recommendations
 
