@@ -216,11 +216,13 @@ The Power BI dashboard (`Power bi/Dashbored.pbix`), branded **PrimeBank**, has 8
 **Risk Analysis** — defaults by branch and loan type, high-risk customer/branch counts, and a recommendations panel built directly into the page
 ![Risk Analysis](Power%20bi/8.png)
 
+### Excel
+
 A supplementary Excel workbook (`Excel/Bank.xlsx`) mirrors a slice of this analysis in pivot-chart form:
 ![Excel Dashboard](Excel/Dashbored%20Image.png)
 
-**Project Workflow**
-![Project Workflow](Work%20Flow.png)
+### Project Workflow
+![Project Workflow](Work Flow.jpg)
 
 ### Business Recommendations
 
