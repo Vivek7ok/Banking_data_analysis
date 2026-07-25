@@ -14,6 +14,7 @@ Analyzing deposits, loans, cards, and customer support for a synthetic retail ba
 - [Key Findings](#key-findings)
 - [Sechma](#sechma)
 - [Dashboard](#dashboard)
+- [Project Workflow](#project-workflow)
 - [Business Recommendations](#business-recommendations)
 - [Data Notes & Challenges](#data-notes--challenges)
 - [How to Run This Project](#how-to-run-this-project)
